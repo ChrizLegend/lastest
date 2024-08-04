@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+body{
+    width: 100%;
+    height: fit-content;
+    background-color: white;
+}
+
+header{
+    width: 100%;
+}
+
+section{
+    width: 100%;
+    height: 400px;
+    background-image: url(./images/homepage-img.jpg);
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 20px;
+    padding-left: 80px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 150px;
+}
+
+section h3{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 200;
+}
+
+section span{
+    width: 100%;
+    height: 30px;
+    height: fit-content;
+    display: flex;
+    position: relative;
+    
+}
+
+section span img{
+    position: absolute;
+    left: 20px;
+    top: 20%;
+}
+
+section input{
+    background-color: transparent;
+    border: 1px solid white;
+    width: 90%;
+    color: white;
+    padding: 10px 20px;
+    padding-left: 55px;
+    font-size: 16px;
+    border-radius: 50px;
+    outline: none;
+
+    
+}
+
+section span a{
+    text-transform: uppercase;
+    border: 1px solid white;
+    font-weight: 600;
+    border-radius: 50px;
+    color: white;
+    padding: 10px 20px;
+    background-color: rgb(252, 71, 6);
+    position: absolute;
+    right: 100px;
+}
+
+nav{
+    width: 100%;
+    background-color: black;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 80px;
+   
+}
+
+nav a{
+    text-transform: uppercase;
+    color: white;
+    font-size: 13px;
+}
+
+main{
+    width: 100%;
+}
+
+main h1{
+    margin-top: 80px;
+    font-weight: 200;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+main #movies{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+main #movies .first-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+
+
+main #movies .second-div{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+main #movies .second-div small{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+#create-acct{
+    width: 100%;
+}
+
+#create-acct h2{
+    margin-top: 100px;
+    font-weight: 200;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#create-acct article{
+    width: 60%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin:  20px 250px;
+    margin-right: 600px;
+    gap: 30px;
+    padding: 40px;
+    background-color: rgb(247, 247, 247);
+
+}
+
+#create-acct article span{
+    width: 100%;
+    display: flex;
+    gap: 30px;
+}
+
+#create-acct article span .right-div{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  
+}
+
+#create-acct article span .right-div form{
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+}
+
+
+#create-acct article span .left-div{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#create-acct article span .left-div form{
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+}
+
+#create-acct article .down-div{
+    width: 95%;
+}
+
+#create-acct article .down-div form{
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+}
+
+#create-acct article button{
+    width: 70px;
+    height: 30px;
+    padding: 5px;
+    text-align: center;
+    font-size: 12px;
+    background-color: rgb(238, 223, 223);
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+main #gallery{
+    width: 100%;
+}
+
+main #gallery h2{
+    margin-top: 80px;
+    font-weight: 200;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+main #gallery > div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+main #gallery > div .first-gallery{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+main #gallery > div .second-gallery{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+main #contact{
+    width: 100%;
+    margin-top: 50px;
+}
+
+main #contact > span {
+    width: 50%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin:  20px 250px;
+    margin-right: 700px;
+    background-image: url(./images/map.png);
+    background-position: center center;
+    opacity: 0.2;
+    position: absolute;
+}
+main #contact h2{
+    font-weight: 200;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    top: 70px;
+}
+
+main #contact > div .address-box{
+    width: 20%;
+    height: 100px;
+    margin:  20px;
+    margin-left: 540px;
+    padding: 10px; 
+    background-color: white;
+    position: relative;
+    top: 70px;
+}
+
+footer{
+    margin-top: 100px;
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 100px;
+}
+
+footer p{
+    font-size: 10px;
+}
+
+
+
